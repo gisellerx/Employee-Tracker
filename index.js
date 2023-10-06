@@ -61,7 +61,7 @@ function viewRoles() {
 }
 
 function viewEmployees() {
-
+    db.query
 }
 
 

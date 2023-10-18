@@ -4,7 +4,7 @@ SELECT * FROM department;
 
 SELECT role.id , title, salary, name as department 
 from role 
-LEFT JOIN department on department.id = role.department_id
+LEFT JOIN department on department.id = role.department_id;
 
 -- Space next to department is REQUIRED for query execution
 SELECT employee.id, employee.first_name, employee.last_name, title, name as department ,salary, CONCAT(bosses.first_name, ' ',bosses.last_name) as manager from employee
